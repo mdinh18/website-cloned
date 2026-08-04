@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Vastgroup - Tập đoàn công nghiệp phụ trợ ô tô Việt Nam </title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&family=Be+Vietnam+Pro:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+        theme: {
+        extend: {
+            fontFamily: {
+            display: ['Oswald', 'sans-serif'],
+            body: ['Roboto', 'sans-serif'],
+            alt: ['Be Vietnam Pro', 'sans-serif'],
+            },
+        }
+        }
+    }
+    </script>
+
+    <style>
+        html{
+            scroll-behavior:smooth;
+        }
+        body{
+            font-family:'Roboto',sans-serif;
+            color:#0A0A0A;
+        }
+    </style>
+
+</head>
+<body class="antialiase bg-white text-slate-950">
+
+    <header class="header relative z-50">
+        <div class="bg-black py-4">
+            <div class="mx-auto px-6 flex items-center justify-between">
+            <div class="flex-1"></div>
+            <div class="flex-1 flex justify-center overflow-visible">
+                <a href="#" class="flex items-center justify-center"><img src="/image/logo (1).png" alt="logo" height="100px" width="80px"></a>
+            </div>
+            <div class="flex-1 flex justify-end items-center gap-1.5 ">
+                <a href="#" class="pill-social flex items-center gap-2 bg-[#333] hover:bg-yellow-100 rounded-full px-3 py-2 transition">
+                <i class="icon-a fa-brands fa-facebook-f text-white text-xs"></i>
+                <i class="icon-b fa-brands fa-facebook-f text-black text-xs hidden"></i>
+                <span class="text-white hover:text-black text-xs hidden sm:inline">Facebook</span>
+                </a>
+                <a href="#" class="pill-social flex items-center gap-2 bg-[#333] hover:bg-yellow-100 rounded-full px-3 py-2 transition pr-5">
+                <i class="icon-a fa-brands fa-youtube text-white text-xs"></i>
+                <i class="icon-b fa-brands fa-youtube text-black text-xs hidden"></i>
+                <span class="text-white hover:text-black text-xs hidden sm:inline">Youtube</span>
+                </a>
+            </div>
+            </div>
+        </div>
+
+
+        <div class="absolute inset-x-0 top-full z-50 hd-pattern">
+            <div class="max-w-[1280px] mx-auto px-7 flex items-center justify-between gap-6">
+
+            <nav class="hidden lg:flex items-center gap-7">
+                <a href="#about" class="text-white text-lg font-display uppercase tracking-wide hover:text-yellow-100 transition">Về công ty</a>
+                <a href="#values" class="text-white text-lg font-display uppercase tracking-wide hover:text-yellow-100 transition">Đối tác</a>
+                <div class="relative group/drop">
+                <a href="#ecosystem" class="text-white text-lg font-display uppercase tracking-wide hover:text-yellow-100 transition flex items-center gap-1">
+                    Hệ sinh thái <i class="fa-solid fa-chevron-down text-[9px]"></i>
+                </a>
+                <div class="absolute pl-50 top-full left-0 mt-4 w-52 bg-white border-t-[3px] border-yellow-100 shadow-xl opacity-0 invisible translate-y-2 group-hover/drop:opacity-100 group-hover/drop:visible group-hover/drop:translate-y-0 transition-all duration-200">
+                    <a href="#ecosystem" class="block px-4 py-2.5 text-sm text-ink hover:text-yellow-100 hover:bg-black/5">Vastcom</a>
+                    <a href="#ecosystem" class="block px-4 py-2.5 text-sm text-ink hover:text-yellow-100 hover:bg-black/5">Vastconnect</a>
+                    <a href="#ecosystem" class="block px-4 py-2.5 text-sm text-ink hover:text-yellow-100 hover:bg-black/5">Vastedu</a>
+                    <a href="#ecosystem" class="block px-4 py-2.5 text-sm text-ink hover:text-yellow-100 hover:bg-black/5">Vastmedia</a>
+                    <a href="#ecosystem" class="block px-4 py-2.5 text-sm text-ink hover:text-yellow-100 hover:bg-black/5">Vastservice</a>
+                    <a href="#ecosystem" class="block px-4 py-2.5 text-sm text-ink hover:text-yellow-100 hover:bg-black/5">Vasttech</a>
+                </div>
+                </div>
+            </nav>
+
+            <a href="#" class="items-center justify-center pl-5"><img src="/image/path-line.png" height="460px" width="200px" alt=""></a>
+
+            <nav class="hidden lg:flex items-center gap-7">
+                <div class="relative group/drop">
+                <a href="#news" class="text-white text-lg font-display uppercase tracking-wide hover:text-yellow-100 transition flex items-center gap-1">
+                    Tin tức <i class="fa-solid fa-chevron-down text-[9px]"></i>
+                </a>
+                <div class="absolute top-full bg-white right-0 mt-4 w-52 bg-black border-t-[3px] shadow-xl opacity-0 invisible translate-y-2 group-hover/drop:opacity-100 group-hover/drop:visible group-hover/drop:translate-y-0 transition-all duration-200">
+                    <a href="#news" class="block px-4 py-2.5 text-sm  hover:text-yellow-100 hover:bg-black/5">Tin tức nổi bật</a>
+                    <a href="#news" class="block px-4 py-2.5 text-sm  hover:text-yellow-100 hover:bg-black/5">Tin tức nội bộ</a>
+                </div>
+                </div>
+                <a href="#recruit" class="text-white text-lg font-display uppercase tracking-wide hover:text-yellow-100 transition">Tuyển dụng</a>
+                <a href="#contact" class="text-white text-lg font-display uppercase tracking-wide hover:text-yellow-100 transition">Liên hệ</a>
+                <button id="search-toggle" class="text-white hover:text-yellow-100 transition"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </nav>
+
+            <button id="burger" class="lg:hidden text-white flex flex-col">
+                <span class="w-6 h-[2px] bg-white"></span>
+                <span class="w-6 h-[2px] bg-white"></span>
+                <span class="w-6 h-[2px] bg-white"></span>
+            </button>
+            </div>
+
+            <div id="mobile-menu" class="hidden lg:hidden bg-slate-dark border-t border-white/10 px-6 py-4 space-y-1">
+            <a href="#about" class="block py-2 text-white/90 text-sm font-display uppercase">Về công ty</a>
+            <a href="#values" class="block py-2 text-white/90 text-sm font-display uppercase">Đối tác</a>
+            <a href="#ecosystem" class="block py-2 text-white/90 text-sm font-display uppercase">Hệ sinh thái</a>
+            <a href="#news" class="block py-2 text-white/90 text-sm font-display uppercase">Tin tức</a>
+            <a href="#recruit" class="block py-2 text-white/90 text-sm font-display uppercase">Tuyển dụng</a>
+            <a href="#contact" class="block py-2 text-white/90 text-sm font-display uppercase">Liên hệ</a>
+            </div>
+
+            <!-- search overlay -->
+            <div id="search-box" class="hidden absolute inset-x-0 top-full bg-white shadow-xl">
+            <form class="mx-auto px-6 py-4 flex gap-3">
+                <input type="search" placeholder="Nhập từ khóa cần tìm" class="flex-1 border border-black/10 px-4 py-3 text-sm outline-none focus:border-yellow-700">
+                <button type="submit" class="bg-yellow-700 text-white px-5 text-sm font-display uppercase tracking-wide"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative h-[100vh]">
+    <div class="swiper hero-swiper">
+        <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+            <div class="relative h-[100vh] min-h-[700px] overflow-hidden bg-slate-800">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1920&auto=format&fit=crop" class="absolute w-full h-full object-cover">
+            <div class="absolute inset-0 bg-black/55"></div>
+            <div class="relative z-10 h-full flex items-center max-w-[1280px] mx-auto px-6">
+                <div class="max-w-2xl">
+                <h1 class="font-display text-white uppercase font-semibold text-4xl md:text-[52px] leading-[1.15] tracking-wide mb-8">
+                    Vì ngành công <br>
+                    nghiệp ô tô <br>
+                    <span class="title-accent">Việt Nam phát triển</span> <br>
+                    bền vững
+                </h1>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="relative h-[100vh] min-h-[700px] overflow-hidden bg-slate-800">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1920&auto=format&fit=crop" class="absolute w-full h-full object-cover">
+            <div class="absolute inset-0 bg-black/55"></div>
+            <div class="relative z-10 h-full flex items-center max-w-[1280px] mx-auto px-6">
+                <div class="max-w-2xl">
+                <h1 class="font-display text-white uppercase font-semibold text-4xl md:text-[52px] leading-[1.15] tracking-wide mb-8">
+                    VIETNAM Automotive <br>
+                    <span class="title-accent">Service Technology</span> <br>
+                    Group
+                </h1>
+                <p class="text-white text-lg md:text-2xl tracking-wide">
+                    Tập đoàn Công nghiệp phụ trợ ô tô<br>
+                    Việt Nam
+                </p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        </div>
+        <div class="swiper-pagination !bottom-12 !left-6 !w-auto !text-left max-w-[1280px] mx-auto"></div>
+    </div>
+    <a href="#about" class="scroll-switch absolute bottom-10 left-1/2 -translate-x-1/2 z-10 relative">
+        <span class="dot absolute left-1/2 -translate-x-1/2"></span>
+    </a>
+    </section>
+
+    <section class="relative" id="about">
+    <div class="relative">
+        <div class="absolute inset-0 bg-cover bg-center bg-fixed" style="background-image:url('/image/hero.jpeg')"></div>
+        <div class="absolute inset-0 bg-black/60"></div>
+        <div class="relative grid md:grid-cols-2">
+        <div class="p-10 md:p-16 md:py-24">
+            <h2 class="font-display text-white uppercase font-light text-3xl md:text-[46px] leading-tight mb-10 wow animate__animated animate__fadeInUp">
+            Giới thiệu <br> tập đoàn <span class="title-accent">VASTGROUP</span>
+            </h2>
+            <div class="relative aspect-video rounded overflow-hidden wow animate__animated animate__fadeInUp">
+            <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?q=80&w=1000&auto=format&fit=crop" class="w-full h-full object-cover">
+            <button class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[70px] h-[70px] rounded-full bg-white border border-black/20 flex items-center justify-center hover:scale-105 transition">
+                <i class="fa-solid fa-play text-yellow-800 ml-1"></i>
+            </button>
+            </div>
+        </div>
+        <div class="bg-black/50 backdrop-blur-md flex items-center p-10 md:p-16">
+            <div class="max-w-md wow animate__animated animate__fadeInUp">
+            <h3 class="relative pl-6 font-display text-white uppercase text-4xl md:text-4xl tracking-wide py-3 mb-6 before:content-[''] before:absolute before:left-0 before:top-0 before:h-full before:w-[5px] before:bg-yellow-100">
+                VASTGROUP - THINK VAST DO SMART!
+            </h3>
+            <p class="text-white font-bold text-2xl leading-relaxed mb-6">Tập đoàn công nghiệp phụ trợ ngành ô tô tại Việt Nam.</p>
+            <p class="text-white/85 leading-relaxed mb-10">Với mong muốn mang đến cho thị trường những sản phẩm uy tín, chất lượng, những giải pháp hữu ích thiết thực cùng những trải nghiệm dịch vụ chuyên nghiệp. Vastgroup với hơn 9 năm phát triển đã và đang là đơn vị tiên phong, góp phần thúc đẩy, nâng tầm vị thế ngành công nghiệp phụ trợ ô tô Việt Nam trên trường quốc tế.</p>
+            <a href="#ecosystem" class="btn-arrow inline-flex items-center gap-3 px-6 py-3.5 font-display uppercase text-sm tracking-wide">
+                Xem thêm <i class="fa-solid fa-chevron-right text-xs"></i>
+            </a>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="relative" id="values">
+    <div class="relative py-20 md:py-28">
+        <div class="absolute inset-0 bg-cover bg-center bg-fixed" style="background-image:url('/image/about-img.jpg')"></div>
+        <div class="absolute inset-0 bg-black/60"></div>
+        <div class="relative max-w-[1280px] mx-auto px-6">
+        <h2 class="font-display text-white uppercase font-light text-3xl md:text-[46px] text-center mb-14 wow animate__animated animate__fadeInUp">
+            Giá trị thương hiệu <span class="title-accent text-yellow-100">VASTGROUP</span>
+        </h2>
+
+        <div class="bg-gradient-to-b from-yellow-300/15 to-transparent rounded-xl py-14 px-6">
+            <div class="grid md:grid-cols-3 gap-10">
+            <div class="text-center px-6 wow animate__animated animate__fadeInUp">
+                <div class="w-[60px] h-[60px] mx-auto mb-6 flex items-center justify-center">
+                <i class="fa-solid fa-medal text-yellow-100 text-4xl"></i>
+                </div>
+                <p class="text-white text-xl leading-relaxed">Hơn 10 năm kinh nghiệm trong ngành công nghiệp phụ trợ ô tô tại Việt Nam, phục vụ cho hơn 50.000 khách hàng, đối tác trong</p>
+            </div>
+            <div class="text-center px-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.15s">
+                <div class="w-[60px] h-[60px] mx-auto mb-6 flex items-center justify-center">
+                <i class="fa-solid fa-people-group text-yellow-100 text-4xl"></i>
+                </div>
+                <p class="text-white text-xl leading-relaxed">Sự tham gia kiến tạo của nhiều chuyên gia đầu ngành cùng với hệ thống nhân sự trẻ nhiệt huyết, đam mê, yêu nghề, sáng tạo.</p>
+            </div>
+            <div class="text-center px-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
+                <div class="w-[60px] h-[60px] mx-auto mb-6 flex items-center justify-center text-yellow-100">
+                <i class="fa-solid fa-diagram-project text-yellow-100 text-4xl"></i>
+                </div>
+                <p class="text-white text-xl leading-relaxed">Hệ sinh thái kết nối hoàn chỉnh: Công nghệ – Thương mại – Dịch vụ – Giáo dục – Truyền thông – Hoạt đồng xã hội.</p>
+            </div>
+            </div>
+            <div class="text-center mt-10 wow animate__animated animate__fadeInUp">
+            <a href="#ecosystem" class="btn-arrow inline-flex items-center gap-3 px-6 py-3.5 font-display uppercase text-sm tracking-wide">
+                Xem thêm <i class="fa-solid fa-chevron-right text-xs"></i>
+            </a>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+    
+    <section class="relative" id="ecosystem">
+    <div class="relative bg-cover bg-center py-20 md:py-24" style="background-image:url('https://images.unsplash.com/photo-1567818735868-e71b99932e29?q=80&w=1600&auto=format&fit=crop')">
+        <div class="absolute inset-0 bg-black/90"></div>
+        <div class="relative max-w-[1280px] mx-auto px-6">
+            <h2 class="font-display text-white uppercase font-light text-3xl md:text-[46px] text-left mb-12 wow animate__animated animate__fadeInUp">
+                Hệ sinh thái <span class="title-accent">VASTGROUP</span>
+            </h2>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div id="VASTCOM">
+                    <div class="flip-wrap relative h-[270px] overflow-hidden wow animate__animated animate__fadeInUp">
+
+
+                    <div class="absolute inset-0 bg-cover bg-center" style="background-image:url('https://vastgroup.vn/wp-content/uploads/2021/02/Screen-Shot-2021-02-17-at-10.16.06-370x250.png')"></div>
+                    <div class="absolute inset-0 bg-black/20"></div>
+
+                    <div class="flip-face flip-front absolute inset-0">
+                        <div class="relative z-10 h-full flex flex-col items-center justify-center gap-3 px-4">
+                        <div class="w-20 h-20 flex items-center justify-center "><img src="https://vastgroup.vn/wp-content/uploads/2021/03/vastcom-93x81px@3x.png" alt=""></div>
+                        <span class="font-display text-white uppercase text-2xl text-center">Vastcom</span>
+                        </div>
+                    </div>
+
+                    <div class="flip-face flip-back absolute inset-0">
+                        <div class="absolute inset-0 flex items-center justify-center p-6">
+                        <div class="bg-black/80 rounded-lg w-full h-full flex items-center justify-center text-center p-6">
+                            <div>
+                            <p class="text-white text-sm leading-relaxed mb-4">Khối thương mại Vastcom: Tập trung cung ứng các sản phẩm, dịch vụ, giải pháp giải quyết các vấn đề cấp thiết của thị trường ngành xe và nhu cầu thiết yếu của người lái xe tại Việt Nam.</p>
+                            <a href="#" class="text-yellow-100 text-sm font-semibold underline underline-offset-4">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    </div>
+
+                
+                </div>
+                <div id="VASTEDU">
+                    <div class="flip-wrap relative h-[270px] overflow-hidden wow animate__animated animate__fadeInUp">
+
+
+                    <div class="absolute inset-0 bg-cover bg-center" style="background-image:url('https://vastgroup.vn/wp-content/uploads/2021/02/Screen-Shot-2021-02-17-at-14.47.33-370x250.png')"></div>
+                    <div class="absolute inset-0 bg-black/20"></div>
+
+                    <div class="flip-face flip-front absolute inset-0">
+                        <div class="relative z-10 h-full flex flex-col items-center justify-center gap-3 px-4">
+                        <div class="w-20 h-20 flex items-center justify-center"><img src="https://vastgroup.vn/wp-content/uploads/2021/03/vastedu-93x81px@3x.png" alt=""></div>
+                        <span class="font-display text-white uppercase text-2xl text-center">Vastedu</span>
+                        </div>
+                    </div>
+
+                    <div class="flip-face flip-back absolute inset-0">
+                        <div class="absolute inset-0 flex items-center justify-center p-6">
+                        <div class="bg-black/80 rounded-lg w-full h-full flex items-center justify-center text-center p-6">
+                            <div>
+                            <p class="text-white text-sm leading-relaxed mb-4">Khối giáo dục Vastedu: Đào tạo, huấn luyện nguồn nhân lực kỹ thuật và dịch vụ chuyên nghiệp có đủ kiến thức, kỹ năng, tay nghề và phẩm chất đáp ứng được nhu cầu phát triển của ngành công nghiệp phụ trợ ô tô tại Việt Nam.</p>
+                            <a href="#" class="text-yellow-100 text-sm font-semibold underline underline-offset-4">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    </div>
+
+                
+                </div>
+                <div id="VASTMEDIA">
+                    <div class="flip-wrap relative h-[270px] overflow-hidden wow animate__animated animate__fadeInUp">
+
+
+                    <div class="absolute inset-0 bg-cover bg-center" style="background-image:url('https://vastgroup.vn/wp-content/uploads/2021/02/Automechanika-Ho-Chi-Minh-City-2019-Confirmed-With-Industry-Support-From-Near-And-Far-1024x678-370x250.jpg')"></div>
+                    <div class="absolute inset-0 bg-black/20"></div>
+
+                    <div class="flip-face flip-front absolute inset-0">
+                        <div class="relative z-10 h-full flex flex-col items-center justify-center gap-3 px-4">
+                        <div class="w-20 h-20 flex items-center justify-center"><img src="https://vastgroup.vn/wp-content/uploads/2021/03/vastmedia-93x81px@3x.png" alt=""></div>
+                        <span class="font-display text-white uppercase text-2xl text-center">Vastmedia</span>
+                        </div>
+                    </div>
+
+                    <div class="flip-face flip-back absolute inset-0">
+                        <div class="absolute inset-0 flex items-center justify-center p-6">
+                        <div class="bg-black/80 rounded-lg w-full h-full flex items-center justify-center text-center p-6">
+                            <div>
+                            <p class="text-white text-sm leading-relaxed mb-4">Khối truyền thông Vastmedia: Cung cấp các dịch vụ, giải pháp tổng thể về xây dựng hình ảnh thương hiệu, quảng cáo, tổ chức sự kiện, triển lãm và quản lý thương hiệu.</p>
+                            <a href="#" class="text-yellow-100 text-sm font-semibold underline underline-offset-4">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    </div>
+
+                
+                </div>
+                <div id="VASTTECH">
+                    <div class="flip-wrap relative h-[270px] overflow-hidden wow animate__animated animate__fadeInUp">
+
+
+                    <div class="absolute inset-0 bg-cover bg-center" style="background-image:url('https://vastgroup.vn/wp-content/uploads/2021/02/shutterstock_565487227-370x250.jpg')"></div>
+                    <div class="absolute inset-0 bg-black/20"></div>
+
+                    <div class="flip-face flip-front absolute inset-0">
+                        <div class="relative z-10 h-full flex flex-col items-center justify-center gap-3 px-4">
+                        <div class="w-20 h-20 flex items-center justify-center"><img src="https://vastgroup.vn/wp-content/uploads/2021/03/vasttech-93x81px@3x.png" alt=""></div>
+                        <span class="font-display text-white uppercase text-2xl text-center">Vasttech</span>
+                        </div>
+                    </div>
+
+                    <div class="flip-face flip-back absolute inset-0">
+                        <div class="absolute inset-0 flex items-center justify-center p-6">
+                        <div class="bg-black/80 rounded-lg w-full h-full flex items-center justify-center text-center p-6">
+                            <div>
+                            <p class="text-white text-sm leading-relaxed mb-4">Khối công nghệ Vasttech: Chuyên nghiên cứu và phát triển công nghệ IoT, AI nhằm kết nối hệ sinh thái ngành xe bao gồm nhà máy sản xuất; các hoạt động vận chuyển, bán hàng, dịch vụ sau bán hàng; hạ tầng giao thông...</p>
+                            <a href="#" class="text-yellow-100 text-sm font-semibold underline underline-offset-4">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    </div>
+
+                
+                </div>
+                <div id="VASTSERVICE">
+                    <div class="flip-wrap relative h-[270px] overflow-hidden wow animate__animated animate__fadeInUp">
+
+
+                    <div class="absolute inset-0 bg-cover bg-center" style="background-image:url('https://vastgroup.vn/wp-content/uploads/2021/01/Organising-your-Automotive-Workshop-370x250.jpg')"></div>
+                    <div class="absolute inset-0 bg-black/20"></div>
+
+                    <div class="flip-face flip-front absolute inset-0">
+                        <div class="relative z-10 h-full flex flex-col items-center justify-center gap-3 px-4">
+                        <div class="w-20 h-20 flex items-center justify-center"><img src="https://vastgroup.vn/wp-content/uploads/2021/03/vastservice-93x81px@3x.png" alt=""></div>
+                        <span class="font-display text-white uppercase text-2xl text-center">Vastservice</span>
+                        </div>
+                    </div>
+
+                    <div class="flip-face flip-back absolute inset-0">
+                        <div class="absolute inset-0 flex items-center justify-center p-6">
+                        <div class="bg-black/80 rounded-lg w-full h-full flex items-center justify-center text-center p-6">
+                            <div>
+                            <p class="text-white text-sm leading-relaxed mb-4">Khối dịch vụ Vastservice: Đầu tư xây dựng - vận hành và phát triển các trạm dịch vụ công nghệ cao với mô hình trải nghiệm dịch vụ uy tín - chuyên nghiệp, giúp người lái xe có những điểm đến an toàn, tiện lợi và tiết kiệm.</p>
+                            <a href="#" class="text-yellow-100 text-sm font-semibold underline underline-offset-4">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    </div>
+
+                
+                </div>
+                <div id="VASTCONNECt">   
+                    <div class="flip-wrap relative h-[270px] overflow-hidden wow animate__animated animate__fadeInUp">
+
+
+                    <div class="absolute inset-0 bg-cover bg-center" style="background-image:url('https://vastgroup.vn/wp-content/uploads/2023/03/img-ecosystem-6-370x250.png')"></div>
+                    <div class="absolute inset-0 bg-black/20"></div>
+
+                    <div class="flip-face flip-front absolute inset-0">
+                        <div class="relative z-10 h-full flex flex-col items-center justify-center gap-3 px-4">
+                        <div class="w-20 h-20 flex items-center justify-center"><img src="https://vastgroup.vn/wp-content/uploads/2021/03/vastconnect-93x81px@3x.png" alt=""></div>
+                        <span class="font-display text-white uppercase text-2xl text-center">Vastconnect</span>
+                        </div>
+                    </div>
+
+                    <div class="flip-face flip-back absolute inset-0">
+                        <div class="absolute inset-0 flex items-center justify-center p-6">
+                        <div class="bg-black/80 rounded-lg w-full h-full flex items-center justify-center text-center p-6">
+                            <div>
+                            <p class="text-white text-sm leading-relaxed mb-4">Khối xã hội Vastconnect: Với khát vọng biến công việc kinh doanh trở thành một phương tiện phụng sự xã hội, Vastconnect thành lập nhằm kết nối các tổ chức, cá nhân trong ngành có niềm đam mê, sự nhiệt huyêt, tình yêu...</p>
+                            <a href="#" class="text-yellow-100 text-sm font-semibold underline underline-offset-4">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    </div>
+
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="relative py-20 md:py-24 bg-cover bg-center" id="doi-tac" style="background-image: url('https://i.pinimg.com/736x/4c/a4/55/4ca45500bfb228a0f62ddaf7c2837094.jpg');">
+        <div class="absolute inset-0 bg-black/80"></div>
+        <div class="relative z-10 max-w-[1048px] h-[500px] mx-auto px-6">
+            <h2 class="font-display text-white uppercase font-light text-3xl md:text-[46px] text-center mb-14 mt-24 drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)]">
+                Đối tác của <span class="title-accent text-yellow-100">VASTGROUP</span>
+            </h2>
+            <div class="partner-swiper swiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="h-[160px] flex items-center justify-center border border-t-0 border-l-0 border-white/20 ">
+                            <img src="/image/logo-ecosystem/autel.png" alt="Autel" class="max-h-[70%] max-w-[70%] object-contain opacity-100">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="h-[160px] flex items-center justify-center border border-t-0 border-white/20 ">
+                            <img src="/image/logo-ecosystem/automechanika.jpg" alt="Automechanika" class="max-h-[70%] max-w-[70%] object-contain opacity-100">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="h-[160px] flex items-center justify-center border border-white/20 border-t-0 ">
+                            <img src="/image/logo-ecosystem/chanchao.png" alt="Chanchao" class="max-h-[70%] max-w-[70%] object-contain opacity-100">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="h-[160px] flex items-center justify-center border border-white/20 border-t-0 ">
+                            <img src="/image/logo-ecosystem/hiệp-hội.png" alt="Hiệp hội" class="max-h-[70%] max-w-[70%] object-contain opacity-100">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="h-[160px] flex items-center justify-center border border-white/20 border-t-0 border-r-0 ">
+                            <img src="/image/logo-ecosystem/liqui-moly.png" alt="Liqui Moly" class="max-h-[70%] max-w-[70%] object-contain opacity-100">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="h-[160px] flex items-center justify-center border border-white/20 border-b-0 border-l-0 ">
+                            <img src="/image/logo-ecosystem/messe.png" alt="Messe" class="max-h-[70%] max-w-[70%] object-contain opacity-100">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="h-[160px] flex items-center justify-center border border-white/20 border-b-0 ">
+                            <img src="/image/logo-ecosystem/tân-phát.png" alt="Tân Phát" class="max-h-[70%] max-w-[70%] object-contain opacity-100">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="h-[160px] flex items-center justify-center border border-white/20 border-b-0 ">
+                            <img src="/image/logo-ecosystem/thaco.png" alt="Thaco" class="max-h-[70%] max-w-[70%] object-contain opacity-100">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="h-[160px] flex items-center justify-center border border-white/20 border-b-0 ">
+                            <img src="/image/logo-ecosystem/Vasi.png" alt="Vasi" class="max-h-[70%] max-w-[70%] object-contain opacity-100">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="h-[160px] flex items-center justify-center border border-white/20 border-b-0 border-r-0 ">
+                            <img src="/image/logo-ecosystem/vinfast.png" alt="VinFast" class="max-h-[70%] max-w-[70%] object-contain opacity-100">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-pagination mt-8"></div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="py-20 md:py-24" id="news">
+    <div class="max-w-[1280px] mx-auto px-6">
+        <h2 class="font-display uppercase font-light text-3xl md:text-[46px] text-center mb-14 wow animate__animated animate__fadeInUp">
+        Tin tức
+        </h2>
+
+        <div class="swiper news-swiper pb-14">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide h-auto">
+            <div class="group">
+                <div class="overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=700&auto=format&fit=crop" class="w-full aspect-[370/250] object-cover group-hover:scale-125 transition duration-300">
+                </div>
+                <div class="mt-5">
+                <h3 class="font-alt font-bold text-[22px] leading-snug mb-1.5">Tiêu đề bài viết 1</h3>
+                <div class="text-sm mb-3">Đăng bởi <span class="text-bronze font-medium">Admin</span> — 12 Tháng Bảy, 2026</div>
+                <p class="text-black/70 text-[15px] leading-relaxed mb-4">Đoạn tóm tắt ngắn nội dung bài viết để người đọc nắm được ý chính…</p>
+                <a href="#" class="btn-underline text-sm font-medium">Xem chi tiết</a>
+                </div>
+            </div>
+            </div>
+
+            <div class="swiper-slide h-auto">
+            <div class="group">
+                <div class="overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=700&auto=format&fit=crop" class="w-full aspect-[370/250] object-cover group-hover:scale-125 transition duration-300">
+                </div>
+                <div class="mt-5">
+                <h3 class="font-alt font-bold text-[22px] leading-snug mb-1.5">Tiêu đề bài viết 2</h3>
+                <div class="text-sm mb-3">Đăng bởi <span class="text-bronze font-medium">Admin</span> — 05 Tháng Bảy, 2026</div>
+                <p class="text-black/70 text-[15px] leading-relaxed mb-4">Đoạn tóm tắt ngắn nội dung bài viết để người đọc nắm được ý chính…</p>
+                <a href="#" class="btn-underline text-sm font-medium">Xem chi tiết</a>
+                </div>
+            </div>
+            </div>
+
+            <div class="swiper-slide h-auto">
+            <div class="group">
+                <div class="overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=700&auto=format&fit=crop" class="w-full aspect-[370/250] object-cover group-hover:scale-125 transition duration-300">
+                </div>
+                <div class="mt-5">
+                <h3 class="font-alt font-bold text-[22px] leading-snug mb-1.5">Tiêu đề bài viết 3</h3>
+                <div class="text-sm mb-3">Đăng bởi <span class="text-bronze font-medium">Admin</span> — 28 Tháng Sáu, 2026</div>
+                <p class="text-black/70 text-[15px] leading-relaxed mb-4">Đoạn tóm tắt ngắn nội dung bài viết để người đọc nắm được ý chính…</p>
+                <a href="#" class="btn-underline text-sm font-medium">Xem chi tiết</a>
+                </div>
+            </div>
+            </div>
+
+            <div class="swiper-slide h-auto">
+            <div class="group">
+                <div class="overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=700&auto=format&fit=crop" class="w-full aspect-[370/250] object-cover group-hover:scale-125 transition duration-300">
+                </div>
+                <div class="mt-5">
+                <h3 class="font-alt font-bold text-[22px] leading-snug mb-1.5">Tiêu đề bài viết 4</h3>
+                <div class="text-sm mb-3">Đăng bởi <span class="text-bronze font-medium">Admin</span> — 20 Tháng Sáu, 2026</div>
+                <p class="text-black/70 text-[15px] leading-relaxed mb-4">Đoạn tóm tắt ngắn nội dung bài viết để người đọc nắm được ý chính…</p>
+                <a href="#" class="btn-underline text-sm font-medium">Xem chi tiết</a>
+                </div>
+            </div>
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    </section>
+
+    <footer id="contact" class="relative ft-pattern bg-black pt-20 pb-10">
+    <div class="max-w-[1280px] mx-auto px-14">
+        <div class="grid md:grid-cols-[1.5fr_1fr] gap-16">
+        <div class="flex flex-col sm:flex-row gap-10">
+            <div class="w-[110px] h-[70px] flex items-center justify-center"><img src="/image/logo (1).png" alt=""></div>
+            <div>
+            <div class="text-white font-display mb-4 uppdercase text-3xl">Vietnam Automotive Service Technology Group</div>
+            <div class="text-white/80 text-sm space-y-1.5 mb-5">
+                <div>Email: Info@vastgroup.vn</div>
+                <div>Phone: 02822666444</div> 
+                <div>
+                    Địa chỉ: Số 4 – 6 Đường Số 4, khu phố 6,<br/> 
+                    Phường Hiệp Bình Phước, Tp. Thủ Đức, <br/>
+                    Thành phố Hồ Chí Minh
+                </div>
+            </div>
+            <div class="text-white/40 text-xs">Designed and developed by <a href="#">VASTMEDIA</a></div>
+            </div>
+        </div>
+        <div class="">
+            <div class="text-white font-display uppercase font-bold text-xl mb-5">Liên kết</div>
+            <ul class="grid grid-cols-2 gap-x-4 gap-y-2.5 mb-8 ">
+            <li><a href="#" class="text-white/80 text-sm hover:text-yellow-100 transition">Home</a></li>
+            <li><a href="#news" class="text-white/80 text-sm hover:text-yellow-100 transition">Tin tức</a></li>
+            <li><a href="#about" class="text-white/80 text-sm hover:text-yellow-100 transition">Về công ty</a></li>
+            <li><a href="#recruit" class="text-white/80 text-sm hover:text-yellow-100 transition">Tuyển dụng</a></li>
+            <li><a href="#values" class="text-white/80 text-sm hover:text-yellow-100 transition">Đối tác</a></li>
+            <li><a href="#contact" class="text-white/80 text-sm hover:text-yellow-100 transition">Liên hệ</a></li>
+            <li><a href="#ecosystem" class="text-white/80 text-sm hover:text-yellow-100 transition">Hệ sinh thái</a></li>
+            </ul>
+            <div class="flex gap-1.5">
+                <a href="#" class="pill-social flex items-center gap-2 bg-[#333] hover:bg-yellow-100 hover:text-black rounded-full px-3 py-2 transition">
+                    <i class="icon-a fa-brands fa-facebook-f text-white text-xs"></i>
+                    <i class="icon-b fa-brands fa-facebook-f text-black text-xs hidden"></i>
+                    <span class="text-white text-xs hover:text-black">Facebook</span>
+                </a>
+                <a href="#" class="pill-social flex items-center gap-2 bg-[#333] hover:bg-yellow-100 hover:text-black rounded-full px-3 py-2 transition">
+                    <i class="icon-a fa-brands fa-youtube text-white text-xs"></i>
+                    <i class="icon-b fa-brands fa-youtube text-black text-xs hidden"></i>
+                    <span class="text-white text-xs hover:text-black">Youtube</span>
+                </a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            new Swiper('.partner-swiper', {
+                slidesPerView: 4,
+                grid: {
+                    rows: 2,
+                    fill: 'row',
+                },
+                spaceBetween: 0,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                breakpoints: {
+                    0: {
+                        slidesPerView: 2,
+                        grid: { rows: 2, fill: 'row' },
+                    },
+                    640: {
+                        slidesPerView: 3,
+                        grid: { rows: 2, fill: 'row' },
+                    },
+                    1024: {
+                        slidesPerView: 4,
+                        grid: { rows: 2, fill: 'row' },
+                    },
+                },
+            });
+        });
+    </script>
+</body>
+</html>
